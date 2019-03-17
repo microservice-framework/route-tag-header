@@ -1,0 +1,23 @@
+{
+  "name": "@microservice-framework/route-tag-header",
+  "version": "1.0.0",
+  "description": "Provide tag 'header'. Easy to use tag that vote to route traffic to next tagged as a header",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cs": "eslint --fix index.js includes/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/microservice-framework/route-tag-header.git"
+  },
+  "author": "Gormartsen",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/microservice-framework/route-tag-header/issues"
+  },
+  "homepage": "https://github.com/microservice-framework/route-tag-header#readme",
+  "dependencies": {
+    "debug": "^2.2.0"
+  }
+}
